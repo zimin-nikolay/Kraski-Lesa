@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#243b2a"/>
+      <stop offset="1" stop-color="#3a5c40"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8b777"/>
+      <stop offset="1" stop-color="#f2dfb3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1220" cy="52" r="230" fill="#d8b777" opacity="0.09"/>
+  <circle cx="1320" cy="318" r="270" fill="#f2dfb3" opacity="0.06"/>
+  <g opacity="0.16" fill="#f4ead2">
+    <path d="M1125 268l72-126 72 126h-45v45h-54v-45z"/>
+    <path d="M1210 263l54-94 54 94h-34v50h-40v-50z"/>
+    <path d="M1037 278l49-86 49 86h-31v35h-37v-35z"/>
+  </g>
+  <path d="M72 274 H1328" stroke="url(#accent)" stroke-width="5" opacity="0.92"/>
+  <text x="74" y="130" fill="#fffaf0" font-family="Segoe UI,Arial,sans-serif" font-size="76" font-weight="700">Краски Леса</text>
+  <text x="76" y="194" fill="#f2dfb3" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="600">Адаптивный сайт экологического проекта</text>
+  <text x="76" y="244" fill="#d5ddcf" font-family="Segoe UI,Arial,sans-serif" font-size="26">HTML5 • CSS3 • JavaScript • Responsive Design</text>
+  <g transform="translate(1134,105)">
+    <rect width="160" height="130" rx="28" fill="#d8b777" opacity="0.96"/>
+    <path d="M80 27c-25 22-42 47-38 69 3 17 18 29 38 29s35-12 38-29c4-22-13-47-38-69z" fill="#315139"/>
+    <path d="M80 48v58M80 77c-12-10-20-17-29-20M80 87c13-11 22-17 31-20" fill="none" stroke="#f8f1df" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

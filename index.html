@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Краски Леса — натуральные красители для детской одежды из отходов сибирской лиственницы">
+  <meta name="theme-color" content="#3A5C40">
+  <title>Краски Леса — цвет, рождённый тайгой</title>
+  <link rel="icon" href="res/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="res/logo.jpg" type="image/jpeg" sizes="any">
+  <link rel="apple-touch-icon" href="res/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Cousine:wght@600&family=Open+Sans:wght@400;500;600&family=Raleway:wght@500;600;700&family=Source+Sans+3:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <img src="res/logo.jpg" alt="Краски Леса" class="logo__img" width="48" height="48">
+        <span class="logo__text">Краски Леса</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link">О нас</a></li>
+          <li><a href="#product" class="nav__link">Продукция</a></li>
+          <li><a href="#technology" class="nav__link">Технология</a></li>
+          <li><a href="#ecology" class="nav__link">Экологичность</a></li>
+          <li><a href="#team" class="nav__link">Команда</a></li>
+          <li><a href="#partners" class="nav__link">Партнёрам</a></li>
+          <li><a href="#contacts" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a href="#partners" class="btn btn--primary btn--sm header__cta">Стать партнёром</a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="res/les.avif" alt="" class="hero__bg-img" decoding="async" fetchpriority="high">
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Цвет, который заботится о&nbsp;будущем</h1>
+          <p class="hero__subtitle">Первое в России производство натуральных красителей для детской одежды из отходов сибирской лиственницы</p>
+
+          <div class="hero__values">
+            <div class="hero__value">
+              <span class="hero__value-icon" aria-hidden="true">🌿</span>
+              <div>
+                <strong>100% натурально</strong>
+                <p>Из экстрактов коры. Безопасно для нежной кожи</p>
+              </div>
+            </div>
+            <div class="hero__value">
+              <span class="hero__value-icon" aria-hidden="true">♻️</span>
+              <div>
+                <strong>Экологично</strong>
+                <p>Даём вторую жизнь отходам лесопереработки</p>
+              </div>
+            </div>
+            <div class="hero__value">
+              <span class="hero__value-icon" aria-hidden="true">🏔️</span>
+              <div>
+                <strong>Сделано в Сибири</strong>
+                <p>Уникальная технология на местном сырье</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a href="#partners" class="btn btn--primary">Заказать образец</a>
+            <a href="#technology" class="btn btn--outline btn--outline-light">Узнать технологию</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM & SOLUTION -->
+    <section class="section section--white" id="problem">
+      <div class="container">
+        <h2 class="section__title">Проблема, которую мы превратили в решение</h2>
+        <div class="triad">
+          <article class="triad__card triad__card--problem">
+            <span class="triad__label">Проблема</span>
+            <p>Синтетические красители вредны для детей и экологии. Отходы окорки — миллионы тонн мусора</p>
+          </article>
+          <article class="triad__card triad__card--product">
+            <span class="triad__label">Наш продукт</span>
+            <p>Гипоаллергенные, стойкие натуральные красители для детского текстиля</p>
+          </article>
+          <article class="triad__card triad__card--solution">
+            <span class="triad__label">Решение</span>
+            <p>Переработка отходов в замкнутом цикле. Забота о природе и здоровье</p>
+          </article>
+        </div>
+        <p class="section__link-wrap">
+          <a href="#product" class="link-arrow">Подробнее о продукте</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--sand" id="about">
+      <div class="container about">
+        <div class="about__text">
+          <h2 class="section__title section__title--left">О проекте «Краски Леса»</h2>
+          <p>Мы — команда студентов и специалистов, объединившаяся для создания новой этической нормы в текстильной индустрии. Наш проект направлен на разработку и продвижение натуральных красителей из возобновляемого сырья.</p>
+          <blockquote class="about__quote">«В этой одежде — дух нашей тайги»</blockquote>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat__number">4,5%</span>
+            <span class="stat__label">водорастворимые экстрактивные вещества</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">133 млн ₽</span>
+            <span class="stat__label">потенциал доступного рынка</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">7</span>
+            <span class="stat__label">специалистов в команде</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY -->
+    <section class="section section--white" id="technology">
+      <div class="container">
+        <h2 class="section__title">Как создаётся натуральный цвет</h2>
+        <div class="timeline">
+          <div class="timeline__step">
+            <div class="timeline__dot">1</div>
+            <h3>Сырьё</h3>
+            <p>Отходы окорки сибирской лиственницы</p>
+          </div>
+          <div class="timeline__step">
+            <div class="timeline__dot">2</div>
+            <h3>Извлечение</h3>
+            <p>Водная экстракция</p>
+          </div>
+          <div class="timeline__step">
+            <div class="timeline__dot">3</div>
+            <h3>Стабилизация</h3>
+            <p>Синтез и стабилизация красителя</p>
+          </div>
+          <div class="timeline__step">
+            <div class="timeline__dot">4</div>
+            <h3>Результат</h3>
+            <p>Готовая палитра оттенков для тканей</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section class="section section--sand" id="product">
+      <div class="container">
+        <h2 class="section__title">Наша продукция</h2>
+        <p class="section__lead">Нажмите на карточку, чтобы рассмотреть упаковку и состав</p>
+
+        <div class="product-grid">
+          <article class="product-card" id="product-card" tabindex="0" role="button" aria-label="Открыть карточку товара">
+            <div class="product-card__image-wrap">
+              <img src="res/tovar/tovar1.png" alt="Краситель натуральный «Лиственница Сибирская»" class="product-card__image">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Лиственница Сибирская</h3>
+              <p class="product-card__desc">Натуральный растительный сухой краситель, 500&nbsp;г</p>
+              <p class="product-card__price">4 965 ₽</p>
+              <div class="product-eac">
+                <span class="product-eac__mark" title="Сертификат соответствия EAC">EAC</span>
+                <button type="button" class="product-eac__code" data-copy="416237201606024" aria-label="Скопировать артикул">
+                  <span class="product-eac__label">Артикул</span>
+                  <span class="product-eac__number">4&nbsp;162&nbsp;372&nbsp;0&nbsp;160&nbsp;602&nbsp;4</span>
+                </button>
+              </div>
+              <span class="product-card__hint">Подробнее →</span>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="subsection__title">Результаты окрашивания</h3>
+        <div class="gallery" id="gallery">
+          <button class="gallery__item" data-index="0" aria-label="Открыть фото 1">
+            <img src="res/result/resultat1.png" alt="Результат окрашивания — детский комплект" loading="lazy">
+          </button>
+          <button class="gallery__item" data-index="1" aria-label="Открыть фото 2">
+            <img src="res/result/resultat2.jpg" alt="Результат окрашивания — платье" loading="lazy">
+          </button>
+          <button class="gallery__item" data-index="2" aria-label="Открыть фото 3">
+            <img src="res/result/resultat3.jpg" alt="Результат окрашивания — кукла в одежде" loading="lazy">
+          </button>
+          <button class="gallery__item" data-index="3" aria-label="Открыть фото 4">
+            <img src="res/result/resultat4.jpg" alt="Результат окрашивания — детский набор" loading="lazy">
+          </button>
+          <button class="gallery__item" data-index="4" aria-label="Открыть фото 5">
+            <img src="res/result/resultat5.jpg" alt="Результат окрашивания — комплект одежды" loading="lazy">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ECOLOGY -->
+    <section class="section section--white" id="ecology">
+      <div class="container">
+        <h2 class="section__title">Красим будущее ответственно</h2>
+        <div class="eco-grid">
+          <article class="eco-card">
+            <div class="eco-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4C16 12 8 20 8 30a16 16 0 0032 0c0-10-8-18-16-26z"/><path d="M24 44V28"/></svg>
+            </div>
+            <h3>Замена химии</h3>
+            <p>Исключение токсичных веществ из контакта с детьми</p>
+          </article>
+          <article class="eco-card">
+            <div class="eco-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 32l8-8 8 8 16-16"/><circle cx="36" cy="12" r="4"/></svg>
+            </div>
+            <h3>Переработка отходов</h3>
+            <p>Снижение нагрузки на полигоны за счёт вторичного использования окорки</p>
+          </article>
+          <article class="eco-card">
+            <div class="eco-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="14" width="36" height="24" rx="2"/><path d="M6 22h36M18 14V10a6 6 0 0112 0v4"/></svg>
+            </div>
+            <h3>Свой производитель</h3>
+            <p>Развитие отечественного производства в рамках импортозамещения</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section section--white" id="team">
+      <div class="container">
+        <h2 class="section__title">Наша команда</h2>
+        <p class="section__lead">Специалисты, стоящие за технологией «Краски Леса»</p>
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-card__photo">
+              <img src="res/team/radusheva.jpg" alt="Радушева Е.С." loading="lazy">
+            </div>
+            <h3 class="team-card__name">Радушева Е.С.</h3>
+            <p class="team-card__role">Технолог</p>
+            <p class="team-card__detail">Извлечение красителя</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__photo">
+              <img src="res/team/kukonina.jpg" alt="Куконина А.И." loading="lazy">
+            </div>
+            <h3 class="team-card__name">Куконина А.И.</h3>
+            <p class="team-card__role">Специалист по контролю качества</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__photo">
+              <img src="res/team/dmitrieva.jpg" alt="Дмитриева Е.Н." loading="lazy">
+            </div>
+            <h3 class="team-card__name">Дмитриева Е.Н.</h3>
+            <p class="team-card__role">Финансовый аналитик</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__photo">
+              <img src="res/team/gorbunova.jpg" alt="Горбунова А.С." loading="lazy">
+            </div>
+            <h3 class="team-card__name">Горбунова А.С.</h3>
+            <p class="team-card__role">Бизнес-архитектор</p>
+            <p class="team-card__detail">Дизайн бизнес-модели</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section class="section section--green" id="partners">
+      <div class="container partners">
+        <h2 class="section__title section__title--light">Станьте частью зелёной текстильной революции</h2>
+        <p class="partners__text">Протестируйте наши красители в своём производстве. Мы предлагаем полное сопровождение: от помощи в интеграции технологии до маркетинговой поддержки вашей «зелёной» продукции.</p>
+        <a href="mailto:info@kraski-lesa.ru?subject=Заявка на сотрудничество" class="btn btn--light">Оставить заявку на сотрудничество</a>
+      </div>
+    </section>
+
+    <!-- PRESS -->
+    <section class="section section--white" id="press">
+      <div class="container">
+        <h2 class="section__title">Отзывы и пресса</h2>
+        <div class="press-placeholder">
+          <p>Здесь появятся публикации в СМИ и отзывы наших партнёров</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="res/logo.jpg" alt="" class="footer__logo" width="56" height="56">
+        <p class="footer__name">Краски Леса</p>
+        <p class="footer__tagline">Натуральные красители из сибирской лиственницы</p>
+        <p class="footer__location">Красноярский край, Россия</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Навигация</h4>
+        <ul>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#product">Продукция</a></li>
+          <li><a href="#technology">Технология</a></li>
+          <li><a href="#team">Команда</a></li>
+          <li><a href="#partners">Партнёрам</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contacts">
+        <h4>Контакты</h4>
+        <p><a href="tel:+73911234567">+7 (391) 123-45-67</a></p>
+        <p><a href="mailto:info@kraski-lesa.ru">info@kraski-lesa.ru</a></p>
+        <p>660075, г. Красноярск,<br>ул. Лиды Прушинской, 2</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 ООО «Краски Леса». Все права защищены.</p>
+        <p class="footer__legal">ИНН / ОГРН — в процессе регистрации</p>
+        <div class="footer__social">
+          <a href="#" aria-label="ВКонтакте" class="social-link">VK</a>
+          <a href="#" aria-label="Telegram" class="social-link">TG</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PRODUCT MODAL -->
+  <div class="modal" id="product-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal__overlay" data-close></div>
+    <div class="modal__dialog">
+      <button class="modal__close" data-close aria-label="Закрыть">&times;</button>
+      <h2 class="modal__title" id="modal-title">Краситель натуральный «Лиственница Сибирская»</h2>
+
+      <div class="modal__header-meta">
+        <p class="modal__price">4 965 ₽</p>
+        <div class="product-eac product-eac--modal">
+          <span class="product-eac__mark" title="Сертификат соответствия EAC">EAC</span>
+          <button type="button" class="product-eac__code" data-copy="416237201606024" aria-label="Скопировать артикул">
+            <span class="product-eac__label">Артикул</span>
+            <span class="product-eac__number">4&nbsp;162&nbsp;372&nbsp;0&nbsp;160&nbsp;602&nbsp;4</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal__precautions">
+        <h3 class="modal__precautions-title">
+          <svg class="modal__precautions-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+          </svg>
+          Меры предосторожности
+        </h3>
+        <ul class="modal__precautions-list">
+          <li>Используйте респиратор (чтобы не вдыхать пыль) и защитные перчатки</li>
+          <li>Краситель окрашивает кожу и поверхности — работайте аккуратно</li>
+          <li>При попадании в глаза — промойте большим количеством воды</li>
+          <li>При проглатывании — обратитесь к врачу</li>
+        </ul>
+      </div>
+
+      <div class="modal__tabs">
+        <button class="modal__tab modal__tab--active" data-tab="front">Спереди</button>
+        <button class="modal__tab" data-tab="back">Сзади</button>
+        <button class="modal__tab" data-tab="label">Состав</button>
+      </div>
+
+      <div class="modal__panels">
+        <div class="modal__panel modal__panel--active" data-panel="front">
+          <button type="button" class="modal__zoom" data-product-index="0" aria-label="Открыть на весь экран">
+            <img src="res/tovar/tovar1.png" alt="Упаковка — вид спереди">
+            <span class="modal__zoom-hint">Нажмите для увеличения</span>
+          </button>
+        </div>
+        <div class="modal__panel" data-panel="back">
+          <button type="button" class="modal__zoom" data-product-index="1" aria-label="Открыть на весь экран">
+            <img src="res/tovar/tavar1_1.png" alt="Упаковка — вид сзади">
+            <span class="modal__zoom-hint">Нажмите для увеличения</span>
+          </button>
+        </div>
+        <div class="modal__panel" data-panel="label">
+          <button type="button" class="modal__zoom" data-product-index="2" aria-label="Открыть на весь экран">
+            <img src="res/tovar/tovar1_2.jpg" alt="Этикетка с составом и инструкцией">
+            <span class="modal__zoom-hint">Нажмите для увеличения</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal__info">
+        <dl class="specs">
+          <div><dt>Цена</dt><dd class="specs__accent">4 965 ₽</dd></div>
+          <div><dt>Артикул EAC</dt><dd class="specs__mono">4 162 372 0 160 602 4</dd></div>
+          <div><dt>Масса нетто</dt><dd>500 г</dd></div>
+          <div><dt>Состав</dt><dd>100% натуральный сухой экстракт из отходов коры сибирской лиственницы (флавоноидные соединения)</dd></div>
+          <div><dt>Применение</dt><dd>Для окрашивания текстильных материалов из натуральных, синтетических и смесовых волокон</dd></div>
+          <div><dt>Расход</dt><dd>20 г красителя на 1 кг ткани</dd></div>
+          <div><dt>Срок годности</dt><dd>24 месяца</dd></div>
+          <div><dt>Стойкость к стирке</dt><dd class="specs__accent">&gt;30 циклов</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+    <div class="lightbox__overlay" data-close></div>
+    <button class="lightbox__close" data-close aria-label="Закрыть">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Предыдущее">‹</button>
+    <img src="" alt="" class="lightbox__image" id="lightbox-image">
+    <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Следующее">›</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

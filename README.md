@@ -6,6 +6,8 @@
 
 **Адаптивный сайт проекта натуральных красителей из сибирской лиственницы**
 
+[Открыть сайт →](https://zimin-nikolay.github.io/Kraski-Lesa/)
+
 `HTML5` · `CSS3` · `JavaScript` · `Responsive Design`
 
 </div>
